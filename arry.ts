@@ -4,8 +4,26 @@
 // Return the modified array
 
 
-var arry:number[]=[10,20,30,40,50,60,70,80,90,100]
-console.log(arry.length)
-arry.splice(5,0,110,45,55,34)
-console.log(arry)
-console.log(arry.length)
+// var arry:number[] = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+// console.log(arry.length)
+// arry.splice(5, 0, 110, 45, 55, 34)
+// console.log(arry)
+// arry.push(110)
+// arry.pop()
+// arry.shift()
+// arry.unshift(5,6)
+// console.log(arry)
+// console.log(arry.length)
+var arry:number[] = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+function insArry(num1:number,num2:number,num3:number,num4:number)
+{
+    arry.splice(num1,num2,num3,num4)
+    console.log(arry)
+    console.log(arry.length)
+    //return arry
+}
+// var reinsArry:any=insArry(4,0,550,11,);
+// reinsArry.splice(9,0,45,55,33,99,)
+// // reinsArry=reinsArry,11,44,22,
+// console.log(reinsArry)
+// console.log(reinsArry.length)
