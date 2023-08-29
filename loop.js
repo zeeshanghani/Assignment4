@@ -21,3 +21,12 @@ while (index <= 10) {
     index = index + 1;
 }
 console.log("before loop");
+let table1 = 5;
+for (let z = 0; z <= 10; ++z) {
+    console.log(table1, "x", z, "=", z * table1);
+}
+let i1 = 13;
+do {
+    console.log("do while loop", i1);
+    i1++;
+} while (i1 <= 12);
